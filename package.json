@@ -1,0 +1,12 @@
+{
+  "name": "codingtest",
+  "version": "1.0.0",
+  "main": "arrayManipulation.js",
+  "scripts": {
+    "start": "node arrayManipulation.js"
+  },
+  "keywords": [],
+  "author": "Meshach",
+  "license": "ISC",
+  "description": "JavaScript and React coding test for any technical interview"
+}
