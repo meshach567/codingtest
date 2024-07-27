@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node arrayManipulation.js",
     "start:object": "node objectHandling.js",
-    "start:string": "node stringManipulation.js"
+    "start:string": "node stringManipulation.js",
+    "start:promise": "node promiseHandling.js"
   },
   "keywords": [],
   "author": "Meshach",
