@@ -8,7 +8,10 @@
     "start:string": "node stringManipulation.js",
     "start:promise": "node promiseHandling.js",
     "start:event": "node eventHandling.js",
-    "start:form": "node formValidation.js"
+    "start:form": "node formValidation.js",
+    "start:storage": "node localStorageItem.js",
+    "start:debounce": "node debounce.js",
+    "start:throttle": "node throttle.js"
   },
   "keywords": [],
   "author": "Meshach",
