@@ -6,7 +6,9 @@
     "start": "node arrayManipulation.js",
     "start:object": "node objectHandling.js",
     "start:string": "node stringManipulation.js",
-    "start:promise": "node promiseHandling.js"
+    "start:promise": "node promiseHandling.js",
+    "start:event": "node eventHandling.js",
+    "start:form": "node formValidation.js"
   },
   "keywords": [],
   "author": "Meshach",
