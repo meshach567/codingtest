@@ -4,7 +4,8 @@
   "main": "arrayManipulation.js",
   "scripts": {
     "start": "node arrayManipulation.js",
-    "start:object": "node objectHandling.js"
+    "start:object": "node objectHandling.js",
+    "start:string": "node stringManipulation.js"
   },
   "keywords": [],
   "author": "Meshach",
