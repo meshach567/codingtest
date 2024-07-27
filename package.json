@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "arrayManipulation.js",
   "scripts": {
-    "start": "node arrayManipulation.js"
+    "start": "node arrayManipulation.js",
+    "start:object": "node objectHandling.js"
   },
   "keywords": [],
   "author": "Meshach",
