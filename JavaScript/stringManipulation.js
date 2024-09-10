@@ -1,5 +1,14 @@
+// Given a string, return the reverse of the string
+
 function reverseString(str) {
-    return str.split('').reverse().join('');
+    const reversed =  str.split('').reverse().join('');
+    console.log(reversed)
+
+    if (str === reversed) {
+        return true
+    }
+
+    return false
 }
 
-console.log(reverseString('hello'))
+console.log(reverseString('codingmoney'))
