@@ -25,3 +25,10 @@ console.log(arr.join(" "));
 
 
 
+function reverseTheArray(arr) {
+    arr.reverse();
+}
+
+const arrValue = [6,5,4,3,2,1];
+reverseArray(arrValue);
+console.log(arr.join(' '))
