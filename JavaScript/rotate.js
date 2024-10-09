@@ -1,20 +1,29 @@
-function arrayRotate(arr, d) {
+function rotateArray(arr, d) {
     let n = arr.length;
 
-    for( let i =0; i < d; i++) {
-        let first = arr[0];
-        for(let j = 0; j < n - 1; j++) {
-            arr[j] = arr[j+1]
-        }
+    // Handle case when d > n;
 
-        arr[n -1] = first
-    }
+    d %= n;
+
+    // traverse the array; store rotation of the array;
+    let temp = new Array(n);
+
+
+    // Copy last n - d elements to the front of temp
+    for (let i = 0; i < n - d; i++)
+        temp[i] = arr[d + i];
+
+    for (let i = 0; i < d; i++)
+        temp[n - d + i] = arr[i];
+
+    for (let i = 0; i < n; i++)
+        arr[i] = temp[i];
 }
 
-let arr = [3,4,5,6,7,8];
+const arr = [1, 2, 3, 4, 5, 6];
+const d = 2;
 
-let d =2;
+rotateArray(arr, d);
 
-arrayRotate(arr, d);
-
-console.log(arr.join(' '))
+// Print the rotated array
+console.log(arr.join(" "));
