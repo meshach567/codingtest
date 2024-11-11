@@ -17,4 +17,4 @@ function rotateArray(arr, k) {
 const Array = [5,6,7,8,9,0];
 const k = 3;
 
-rotateArray(Array, k)
+rotateArray(Array, k);
